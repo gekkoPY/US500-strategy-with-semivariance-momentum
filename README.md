@@ -25,3 +25,11 @@ Tested against the most volatile market regimes of the last decade, the algorith
 2. Install the required Python libraries:
    ```bash
    pip install MetaTrader5 pandas numpy plotly
+
+   Open your MT5 terminal and ensure M5 chart history is fully downloaded for your target dates.
+
+Run the backtester:
+
+Bash
+python semivariance_momentum.py
+The script will output an interactive HTML equity curve via Plotly.
